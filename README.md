@@ -32,16 +32,16 @@ body::before {
 <div class="row content" style="color: black;">
   <div class="col-xxl-2"></div>
   <div class="col-xxl-8">
-    <div align="center" style="margin: 15px;">Download the <img src="images/SOROUSH.png" width="130" height="15" alt="SOROUSH"/> App today to enjoy more<em>!</em></div>
+    <div align="center" style="margin: 15px;">Download the <img src="images/SOROUSH.png" width="130" alt="SOROUSH"/> App today to enjoy more<em>!</em></div>
     <div align="center" style="margin: 10px;"><img src="images/SOROUSH-Application.png" class="img-fluid" width="480" alt="Soroush-App"/></div>
   </div>
   <div class="col-xxl-2"></div>
 </div>
-<div style="background: #0A1551; padding: 5px; margin: 20px 0;">
+<div style="background: #0A1551; padding: 5px; margin: 20px 0px;">
   <div class="row">
     <div class="col-xxl-2"></div>
     <div class="col-xxl-8">
-      <div align="left" style="margin: 10px 0; color: whitesmoke"><em> Please follow me on: </em> </div>
+      <div align="left" style="margin: 10px 0px; color: whitesmoke"><em> Please follow me on: </em> </div>
       <div class="col-xxl-2"></div>
     </div>
     <div class="row">
@@ -64,8 +64,17 @@ body::before {
       </div>
       <div class="col-xxl-2"></div>
     </div>
-    <div align="right" style="margin-top: 20px;"> <span style="color: white;">&copy; &nbsp;<a href="https://amirsoroush.com/"><img src="images/Logo-x64.png" alt="Logo" width="32" height="32" title="ABDULAMIR REZASOROUSH"/></a>&nbsp; All Rights Reserved.</span> </div>
+    <div align="right" style="margin-top: 20px;"> <span style="color: white;">&copy; <span id="current-year" style="color: white"></span> &nbsp;<a href="https://amirsoroush.com/"><img src="images/Logo-x32.png" alt="Logo" width="32" height="32" title="ABDULAMIR REZASOROUSH"/></a>&nbsp; All Rights Reserved.</span> </div>
   </div>
 </div>
+<script>
+        // Get the current year
+        document.addEventListener("DOMContentLoaded", () => {
+            const date = new Date();
+            const year = date.getFullYear();
+
+            document.getElementById("current-year").textContent = year;
+        });
+    </script>
 </body>
 </html>
