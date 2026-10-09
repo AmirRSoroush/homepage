@@ -3,30 +3,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ABDULAMIR REZASOROUSH</title>
-<link href="css/bootstrap-5.3.8.css" rel="stylesheet" type="text/css">
-<style>
-body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/GitHub-Abdulamir-Rezasoroush.jpg") center/cover no-repeat;
-    opacity: 0.4;
-    z-index: -1;
-}
-.content {
-    position: relative;
-    z-index: 1;
-}
-</style>
 </head>
 <body>
 <div class="row content" style="color: black;">
@@ -67,14 +43,5 @@ body::before {
     <div align="right" style="margin-top: 20px;"> <span style="color: white;">&copy; <span id="current-year" style="color: white"></span> &nbsp;<a href="https://amirsoroush.com/"><img src="images/Logo-x32.png" alt="Logo" width="32" height="32" title="ABDULAMIR REZASOROUSH"/></a>&nbsp; All Rights Reserved.</span> </div>
   </div>
 </div>
-<script>
-        // Get the current year
-        document.addEventListener("DOMContentLoaded", () => {
-            const date = new Date();
-            const year = date.getFullYear();
-
-            document.getElementById("current-year").textContent = year;
-        });
-    </script>
 </body>
 </html>
